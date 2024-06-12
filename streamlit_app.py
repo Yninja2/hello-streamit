@@ -19,6 +19,11 @@ Here's our first attempt at using data to create a table:
 
 
 """
+st.balloons()
+
+with st.chat_message("user"):#("assistant"):
+   st.write("hello !!")
+   st.line_chart(np.random.randn(30,3))
 
 st.write("Here's our first attempt at using data to create a table:")
 st.write(pd.DataFrame({
